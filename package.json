@@ -7,6 +7,7 @@
   "scripts": {
     "compile": "tsc",
     "run": "ts-node src/index.ts",
+    "start": "nodemon src/index.ts",
     "run:prod": "node dist/index.js"
   },
   "dependencies": {
